@@ -1,7 +1,7 @@
 import "./App.css";
-
+import GitHubUser from "./components/GitHubUser";
 function App() {
-  return <></>;
+  return <GitHubUser />;
 }
 
 export default App;
