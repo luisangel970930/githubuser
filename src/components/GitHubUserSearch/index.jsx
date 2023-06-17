@@ -8,7 +8,7 @@ function GitHubUserSearch({ onSubmit }) {
       className="search"
       onSubmit={(event) => {
         event.preventDefault();
-        //  onSubmit(name.current.value);
+        onSubmit(name.current.value);
       }}
     >
       <input ref={name} type="text" placeholder="User"></input>
