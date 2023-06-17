@@ -2,6 +2,7 @@ import GitHubLogo from "../GitHubLogo";
 import Loading from "../Loading";
 import Alert from "../Alert";
 import User from "../User";
+import ListOfRepos from "../ListOfRepos";
 import GitHubUserSearch from "../GitHubUserSearch";
 import useSearch from "../../hooks/useSearch";
 
@@ -18,6 +19,7 @@ function GitHubUser() {
         <>
           {" "}
           <User details={detailUser.user} />
+          <ListOfRepos listRepos={detailUser.listRepos} />
         </>
       )}
     </>
