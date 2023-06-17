@@ -1,0 +1,17 @@
+.message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.alert {
+  border-left: 4px solid red;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  font-style: italic;
+}
+
+.alert-text {
+  color: red;
+  margin-right: 10px;
+  cursor: punter;
+}
