@@ -6,8 +6,8 @@ function ListOfRepos({ listRepos }) {
       {listRepos?.map((repo) => {
         return (
           <blockquote key={repo.id} style={{ margin: "16px 0" }}>
-            <h3>{repo.name}</h3>
-            <h4>{repo.description}</h4>
+            <strong>{repo.name}</strong>
+            <div>{repo.description}</div>
           </blockquote>
         );
       })}

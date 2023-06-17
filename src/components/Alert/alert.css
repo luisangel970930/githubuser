@@ -1,6 +1,6 @@
 .message {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   width: 100%;
 }
 .alert {

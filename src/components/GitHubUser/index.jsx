@@ -16,11 +16,11 @@ function GitHubUser() {
       {loading && <Loading />}
       {error && !loading && !detailUser.user && <Alert status={error} />}
       {!loading && detailUser && !error && (
-        <>
+        <div style={{ margin: "64px 0 0 0" }}>
           {" "}
           <User details={detailUser.user} />
           <ListOfRepos listRepos={detailUser.listRepos} />
-        </>
+        </div>
       )}
     </>
   );
